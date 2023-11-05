@@ -1,9 +1,8 @@
-gem 'jekyll', '~> 4.2.1'
+source 'https://rubygems.org'
+
+gem 'jekyll', '3.8.5'
+
 group :jekyll_plugins do
-  gem 'jekyll-seo-tag', '~> 2.7.0'
-  gem 'jekyll-sitemap', '~> 1.4.0'
   gem 'jekyll-paginate'
-  gem 'wdm', '~> 0.1.1'
-  gem 'kramdown-parser-gfm'
+  gem 'jekyll-sitemap'
 end
-gem "webrick", "~> 1.7"
